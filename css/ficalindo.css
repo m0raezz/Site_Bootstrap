@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;    
+}
+body{
+    background-color:wheat ;
+}
+/* Organizando os itens do menu */
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Ajustando os links */
+#navbar-items a {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    margin-left: 2em;
+}
+
+.navbar{
+    background-color: rgb(201, 201, 201);
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+#container-banner {
+    margin-top: 6em;
+}
+
+
+.titulo {
+    text-align: center;
+}
+
+.btn-maiseu {
+    background: rgb(121, 16, 16);
+}
+
+.navbar-brand i {
+    font-size: 2em;
+}
+
+i {
+    font-size: 3em;  
+}
+
+
+
+.bi {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: rgb(184, 182, 185);
+    margin-bottom: 1em;
+}
+
+#container-carousel{
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+.container i{
+ padding-top: 0.5em;
+}
+
